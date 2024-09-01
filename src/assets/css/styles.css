@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+  font-family: "Bubbleboddy Neue";
+  src: url("../fonts/BubbleboddyNeue-Bold\ Trial.otf") format("opentype"),
+    url("../fonts/BubbleboddyNeue-ExtraBold Trial.otf") format("opentype"),
+    url("../fonts/BubbleboddyNeue-Light Trial.otf") format("opentype"),
+    url("../fonts/bubbleboddyneue-regular trial.otf") format("opentype"),
+    url("../fonts/BubbleboddyNeue-Thin Trial.otf") format("opentype");
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../fonts/Comfortaa-VariableFont_wght.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f8f9fa;
+}
+.navbar {
+  background-color: #fdd90b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bubbleboddy Neue";
+  text-transform: uppercase;
+}
+p {
+  font-family: "Comfortaa";
+}
+div {
+  margin-top: 10px;
+  margin-block-start: 10px;
+}
+.titre {
+  color: #151217;
+}
+.desc {
+  color: #333;
+}
+.container_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: white;
+  width: 100%;
+}
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.container_home {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.img-products {
+  height: 30px;
+  width: 30px;
+}
+.menu {
+  font-family: "Bubbleboddy Neue", sans-serif;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.menu ul li {
+  margin-left: 20px;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.menu ul li a:hover {
+  color: #007bff;
+}
+main {
+  background-color: #da001e;
+  width: 100%;
+}
+.banner {
+  background-color: #f9d0a3;
+  padding: 10px;
+  color: #151217;
+}
+/* Styles pour chaque carte de produit */
+.product-card {
+  width: calc(25% - 20px);
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}

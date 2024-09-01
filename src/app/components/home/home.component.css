@@ -1,0 +1,91 @@
+/* Styles généraux pour la liste de produits */
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  /* Styles pour l'image du produit */
+  .product-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+  }
+  
+  /* Styles pour les détails du produit */
+  .product-details {
+    margin-top: 15px;
+  }
+  
+  /* Styles pour le nom du produit */
+  .product-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Styles pour la description du produit */
+  .product-details .description {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* Styles pour le prix du produit */
+  .product-details .price {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Style de base pour le champ de recherche */
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #FDD90B;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Style lorsque le champ de recherche est en focus */
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #F9D0A3; /* Couleur de la bordure en focus */
+  }
+  
+  /* Style pour le placeholder */
+  input[type="text"]::placeholder {
+    color: #aaa; /* Couleur du texte du placeholder */
+  }
+  
+  /* Style pour le texte saisi */
+  input[type="text"]::-webkit-input-placeholder {
+    color: #333; /* Couleur du texte saisi */
+  }
+  /* Style pour le label */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Style pour le menu déroulant */
+  select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Style lorsque le menu déroulant est en focus */
+  select:focus {
+    outline: none;
+    border-color: #007bff; /* Couleur de la bordure en focus */
+  }
+  

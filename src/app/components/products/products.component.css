@@ -1,0 +1,75 @@
+.products-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.product-image img {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.product-details {
+  padding: 20px;
+}
+
+.product-details h3 {
+  margin-top: 0;
+}
+
+.product-details .description {
+  margin-bottom: 10px;
+}
+
+.product-details .price {
+  font-weight: bold;
+}
+/* Style de base pour le champ de recherche */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px; /* Largeur du champ de recherche */
+}
+
+/* Style lorsque le champ de recherche est en focus */
+input[type="text"]:focus {
+  outline: none;
+  border-color: dodgerblue; /* Couleur de la bordure en focus */
+}
+
+/* Style pour le placeholder */
+input[type="text"]::placeholder {
+  color: #aaa; /* Couleur du texte du placeholder */
+}
+
+/* Style pour le texte saisi */
+input[type="text"]::-webkit-input-placeholder {
+  color: #333; /* Couleur du texte saisi */
+}
+
+/* Style pour le bouton Retour */
+.back-button {
+    padding: 10px 20px;
+    background-color: #F9D0A3;
+    color: #151217;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #FDD90B;
+  }
